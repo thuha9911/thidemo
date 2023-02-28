@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* position: relative; */
+    height: 350px;
+    background-image: url('../img/castle-7766794_640.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    width: 100%;
+}
+
+/* header .btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+} */
+header .btn{
+    padding: 10px;
+    background-color: #88d1fc;
+    width: 40%;
+    margin-left: 1040px;
+}
+header .btn input {
+    outline: none;
+    padding: 5px;
+    padding: 10px;
+}
+
+header .btn .gradient {
+    border: none;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: linear-gradient(#0093E9, #80D0C7);
+}
+
+nav {
+    padding: 0 10px;
+    background-color: #0093E9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav ul li:hover a {
+    background-color: cadetblue;
+}
+
+section .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .container .content {
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
+    box-shadow: 0 0 5px #ccc;
+    padding-bottom: 10px;
+}
+
+section .container .content img {
+    max-width: 100%;
+}
+section .container .content h3,
+section .container .content p,
+section .container .content a{
+    padding-left: 10px;
+}
+section .container .content p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+section .container .content a {
+    text-decoration: none;
+    color: crimson;
+}
+
+section.lienhe {
+    
+    margin: 20px 0;
+    background-color: #0093E9;
+    text-align: center;
+}
+
+section.lienhe h2 {
+    padding: 20px;
+    color: #fff;
+    
+}
